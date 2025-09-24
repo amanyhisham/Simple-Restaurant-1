@@ -430,4 +430,145 @@ textarea {
     color: #e4b95b;
 }
  /*reponsive*/
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 1200px) {
+    .navbar .part1 ul {
+        margin-right: 50px;
+    }
+    .about .content-about {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu .menu-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .part1 {
+        flex-direction: column;
+    }
+    .navbar img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .navbar .part1 ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .about .content-about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .content-about .parg p {
+        margin-right: 0;
+        text-align: center;
+    }
+    .about .content-about img {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .offers .offer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu .menu-content {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu .menu-content .section1 .p1,
+    .menu .menu-content .section2 .p1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu .menu-content .section1 .p1 img,
+    .menu .menu-content .section2 .p1 img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .food {
+        flex-direction: column;
+        padding-top: 50px;
+        height: auto;
+    }
+    .food .time {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .contact h1 {
+        font-size: 28px;
+    }
+    .navbar .contact p {
+        font-size: 14px;
+    }
+    .about .container .title h2 {
+        font-size: 30px;
+    }
+    .offers .title h2 {
+        font-size: 30px;
+    }
+    .menu .title h2 {
+        font-size: 30px;
+    }
+    .menu .menu-content .section1 img,
+    .menu .menu-content .section2 img {
+        width: 60px;
+        height: 60px;
+    }
+    .menu .menu-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .garelly img {
+        width: 80%;
+        height: auto;
+    }
+    .contact2 {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .contact2 .right form input,
+    .contact2 .right form textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .contact h1 {
+        font-size: 24px;
+    }
+    .navbar .contact a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .about .container .title p {
+        font-size: 12px;
+    }
+    .offers .title p,
+    .menu .title p {
+        font-size: 12px;
+    }
+    .food h3 {
+        font-size: 24px;
+    }
+    .food p {
+        font-size: 12px;
+    }
+    .foot {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+
  
